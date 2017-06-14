@@ -1,8 +1,28 @@
 .row {
-	background-color: #D3D46A;
-	width: 100%;
+    background-color: #D3D46A;
+    width: 100%;
 }
+
 .personData {
-	width: 24%;	
-	display: inline-block;
+    width: 24%;
+    display: inline-block;
+}
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-content: center;
+}
+
+.table {
+    border-collapse: collapse;
+    align-content: center;
+    border: 2px solid #000;
+}
+
+td {
+    border: 2px solid #000;
+    padding: 10px;
 }
